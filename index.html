@@ -22,24 +22,39 @@
   </head>
   <body>
     
-      <nav class="nav-menu d-none d-lg-block">
-    <ul>
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="#">Travel Quiz</a></li>
-      <li class="drop-down"><a href="">Travel Destinations</a>
-        <ul>
-          <li><a href="india.html">India</a></li>
-          <li><a href="mexico.html">Mexico</a></li>
-          <li><a href="mongolia.html">Mongolia</a></li>
-          <li><a href="newzealand.html">New Zealand</a></li>
-          <li><a href="southafrica.html">South Africa</a></li>
-          <li><a href="switzerland.html">Switzerland</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Travelpedia</a>
+      <button class= "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-5 mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Travel Destinations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="india.html">India</a>
+              <a class="dropdown-item" href="mexico.html">Mexico</a>
+              <a class="dropdown-item" href="mongolia.html">Mongolia</a>
+              <a class="dropdown-item" href="newzealand.html">New Zealand</a>
+              <a class="dropdown-item" href="southafrica.html">South Africa</a>
+              <a class="dropdown-item" href="switzerland.html">Switzerland</a>
+            </div>
+          </li>
         </ul>
-      </li>
 
-    </ul>
-  </nav>
+        <button class="btn btn-outline-success mr-auto" type="click">Travel Quiz</button>
+         
+      </div>
+    </nav>
+    
     
     <div class="container">
     
