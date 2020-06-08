@@ -21,6 +21,41 @@
   
   </head>
   <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Travelpedia</a>
+      <button class= "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-5 mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Travel Destinations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="india.html">India</a>
+              <a class="dropdown-item" href="mexico.html">Mexico</a>
+              <a class="dropdown-item" href="mongolia.html">Mongolia</a>
+              <a class="dropdown-item" href="newzealand.html">New Zealand</a>
+              <a class="dropdown-item" href="southafrica.html">South Africa</a>
+              <a class="dropdown-item" href="switzerland.html">Switzerland</a>
+            </div>
+          </li>
+        </ul>
+
+        <button class="btn btn-outline-success mr-auto" type="click">Travel Quiz</button>
+         
+      </div>
+    </nav>
+    
+    
     <div class="container">
     
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -71,5 +106,88 @@
     </div>  
       
     </div>
+    
+    <section id="about">
+      <div class="container">
+        <header class="section-header">
+
+          <h3>Our Aim</h3>
+
+          <p>Travelpedia believes that exciting travel is just beyond the horizon. As a company, our main aim is to guide you to your dream destination. Through research, dedication, and comprehensive information, we work to create the ideal holiday for you.</p>
+
+        </header>
+        <div class="row about-cols">
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/img/about-mission.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+
+              <h2 class="title"><a href="#">Budget</a></h2>
+              <p>
+                We understand that everyone looks for a holiday with a different budget. Whether you want to backpack in India or go on a luxury safari in South Africa, we have you covered.
+              </p>
+
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/img/about-plan.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+
+              <h2 class="title"><a href="#">Types of Holiday</a></h2>
+              <p>
+
+                Our virtual quiz will show you countries based on what type of holiday you want. Does trekking in Switzerland sound appealing? Or do you want to see ancient ruins in Mexico? Take the quiz to find out!
+
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/img/about-vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+
+              </div>
+
+              <h2 class="title"><a href="#">Travel Destinations</a></h2>
+              <p>
+                Discover Europe, Oceania, Latin America, and Asia and plan the perfect trip.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+      <style>
+    .footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: #343a40;
+       color: white;
+       text-align: right;
+       font-family: sans-serif;
+       font-style: italic;
+       padding-right: 10px;
+       padding-top: 4px;
+       padding-bottom: 0px;
+    }
+    </style>
+
+<div class="footer">
+  <p>Travelpedia 2020</p>
+</div>
+    
+    
   </body>
 </html>
