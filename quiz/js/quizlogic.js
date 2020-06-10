@@ -31,7 +31,7 @@ function check(){
         }
 
     var message = ["Great job!", "That's just okay", "Better luck next time"];
-    var pictures = ["img/message0.gif", "img/message1.gif", "img/message2.gif"]
+    var pictures = ["quiz/img/message0.gif", "quiz/img/message1.gif", "quiz/img/message2.gif"]
         var range;
         if (correct < 3) {
             range = 2;

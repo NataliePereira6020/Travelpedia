@@ -1,3 +1,11 @@
 .myCarousel {
     margin-top: 60px;
 }
+
+#frstPic {
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+      width: 50%;
+      
+}
