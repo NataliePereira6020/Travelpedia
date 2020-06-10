@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/quizlogic.js"></script>
+<title>Travel Quiz</title>
+</head>
+<body>
+
+<h1>How Well Do You Know Our Travel Destinations?</h1>
+
+<form id="travelQuiz" name="quiz">
+    <p class="questions">What is the capital of Mongolia?</p>
+    <input type="radio" id= "mcAnswer" name="question1" value="Ulaanbaatar"> Ulaanbaatar<br>
+    <input type="radio" id= "mcAnswer" name="question1" value="Choybalsan"> Choybalsan<br>
+    <input type="radio" id= "mcAnswer" name="question1" value="Darhan"> Darhan<br>
+    <input type="radio" id= "mcAnswer" name="question1" value="Bayanhongor"> Bayanhongor<br>
+    
+    <p class="questions">How many people live in Mexico city?</p>
+    <input type="text" id="txtAnswer" name="question2"><br> 
+
+    <p class="questions">True or False: Does India have the most post offices in the world?</p>
+    <input type="radio" id="mcAnswer" name="question3" value="True"> True <br>
+    <input type="radio" id="mcAnswer" name="question3" value="False"> False <br>
+
+    <p class="questions">How many countries surround Switzerland?</p>
+    <input type="radio" id= "mcAnswer" name="question4" value="3"> 3<br>
+    <input type="radio" id= "mcAnswer" name="question4" value="4"> 4<br>
+    <input type="radio" id= "mcAnswer" name="question4" value="5"> 5<br>
+    <input type="radio" id= "mcAnswer" name="question4" value="6"> 6<br>
+
+    <p class="questions">How many scenes from Lord of the Rings were not filmed in New Zealand?</p>
+    <input type="radio" id= "mcAnswer" name="question5" value="0"> 0<br>
+    <input type="radio" id= "mcAnswer" name="question5" value="1"> 1<br>
+    <input type="radio" id= "mcAnswer" name="question5" value="2"> 2<br>
+    <input type="radio" id= "mcAnswer" name="question5" value="3"> 3<br>
+
+    <p class="questions">How many capitals does South Africa have?</p>
+    <input type="radio" id= "mcAnswer" name="question6" value="1"> 0<br>
+    <input type="radio" id= "mcAnswer" name="question6" value="2"> 1<br>
+    <input type="radio" id= "mcAnswer" name="question6" value="3"> 2<br>
+    <input type="radio" id= "mcAnswer" name="question6" value="4"> 3<br>
+
+   
+</form>
+
+<button id="submit" onclick="check();">Submit Quiz</button>
+<div id="quiz"></div>
+
+
+<div id="afterSubmit">
+    <p id="message"></p>
+    <p id="numberCorrect"></p>
+    <img id="picture">
+</div>
+<div id="results"></div>
+
+</body>
+</html>
