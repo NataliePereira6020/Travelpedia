@@ -5,9 +5,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name= "description" content="Travelpedia Mexico page">
+    <meta name= "description" content="Travelpedia">
     <meta name= "keywords" content= "HTML, CSS, JavaScript">
-    <meta name= "author" content="Julia" >
+    <meta name= "author" content="Marta">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     
@@ -36,7 +36,7 @@
             <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -58,12 +58,88 @@
       </div>
     </nav>
   
-  <h1>South Africa</h1>
-<br>
-<img src="img/SA1.jpg" width="500" height="600">
+    <br><br>
 
+<hr class="featurette-divider">
 
-    
+    <div class="row featurette">
+      <div class="col-md-5">
+        <h2 class="featurette-heading">South Africa.<span class="text-muted"> Plenty to see!</span></h2>
+        <p class="lead">South Africa is a country on the southernmost tip of the African continent, marked by several distinct ecosystems. Inland safari destination Kruger National Park is populated by big game. The Western Cape offers beaches, lush winelands around Stellenbosch and Paarl, craggy cliffs at the Cape of Good Hope, forest and lagoons along the Garden Route, and the city of Cape Town, beneath flat-topped Table Mountain.</p>
+      </div>
+
+      <style>
+      
+      .col-md-5 {
+        padding-left: 50px;
+      }
+
+      .featurette-divider {
+        padding-bottom: 50px;
+        padding-top: 50px;
+
+      }
+
+      </style>
+
+      <div class="container">
+       
+          <img src="SA1.jpg" alt="South Africa" class="image" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto"> 
+          <div class="overlay">
+            <div class="text">Random view of South Africa</div>
+          </div>
+      </div>
+    </div>
+
+    <style>
+      .container {
+        position: relative;
+        width: 50%;
+        padding-left: 50px;
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlay {
+        position: relative; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1; 
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      </style>
+
+    <hr class="featurette-divider">
+
+    <br><br>
+
       <style>
     .footer {
        position: fixed;
@@ -84,6 +160,7 @@
 <div class="footer">
   <p>Travelpedia 2020</p>
 </div>
+
 
 </body>
 </html>
